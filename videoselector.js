@@ -1,0 +1,1 @@
+document.getElementById("vsrc").src = Math.floor((Math.random()*3)+1) + ".mp4";

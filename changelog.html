@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<meta charset=UTF-8>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" media="all"/>
+	<title>Dyropedia</title>
+
+</head>
+<body>
+
+	<script>
+	</script>
+
+	<div id="popUp">
+		<form action="send.php" method="POST" style="padding-top:5px;">
+
+			<input type="password" name="pass">
+			Passord
+			</input>
+
+			<input type="submit">
+			</input>
+
+
+		</form>
+	</div>
+
+	<header>
+			<div class="container">
+
+			<img src="logo.svg" width="75px" height="75px" alt="logo" class="logo">
+
+			<nav>
+					<ul>
+							<li><a href="index.html">Hjem</a></li>
+							<li><p class="pass" id="formButton" onClick="if(document.getElementById('popUp').style.display==='none'){document.getElementById('popUp').style.display = 'block';}else{document.getElementById('popUp').style.display = 'none';}">Videoarkiv</a></li>
+							<li><a href="#">Kontakt</a></li>
+							<li><a href="#">Info</a></li>
+							<li><a href="changelog.html">Changelog</a></li>
+					</ul>
+			</nav>
+
+			</div>
+	</header>
+
+    <div id="changelog">
+Endringer:<br>
+4/03/19: Endret logo og ikon. Opprettet ny profil.<br>
+28/02/19: Tilpasset passord tekst til passord boks. Endret navigeringslinkene for dyreprofilene slik at differensiering blir enklere.<br>
+
+		</div>
+
+
+</body>
+</html>
